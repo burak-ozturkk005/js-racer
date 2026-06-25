@@ -1,7 +1,7 @@
 
 const canvas =document.getElementById('game');
 const ctx = canvas.getContext('2d');
-//Oyuncunun durumu 
+//Oyuncunun koordinatları ilk iki sol üst köşenin konumu, son iki sayi dikdörtgenin boyutu 
 const player = {
     x: 145,
     y: 410,
